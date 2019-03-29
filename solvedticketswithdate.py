@@ -18,7 +18,7 @@ def main():
     resources = ["https://github.com/contentful/","https://www.contentful.com/developers/","https://www.contentful.com/pricing/","http://contentful.com/faq","https://www.contentful.com/blog/"]
      
     # solvedUrl = 'https://contentful.zendesk.com/api/v2/search.json?query=type:ticket status>=solved created>=2019-01-01 created<=2019-03-31'
-    headers = {'Authorization':'Basic Base-64-encoded-email-address-API-token'}
+    headers = {'Authorization':'Basic Base64-encoded-of{email address}:{API token}'}
      
     # open the file
     # fo = open("ticket_id.txt","a+")
