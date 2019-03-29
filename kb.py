@@ -6,7 +6,7 @@ import json
 # preps the parameters
 # replace {email address} with your Contentful email address and {API token} from Contentful admin section
  
-headers = {'Authorization':'Basic ZmFqcmkuaGFu_bnlAY29udGVudGZ1bC5jb20vdG9rZW46dDA4VjVSSEVvSHFIejVNZG9GVmVaYUdZd2J1Mnh0M2FsNTduM0ZsbA=='}
+headers = {'Authorization':'Basic Base64-encoded-of{email address}:{API token}'}
 infile = open ("ticket_id.txt","r")
 KBtickets = open ("KB_tickets.txt", "a")
 tickets_solved = 0
