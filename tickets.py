@@ -8,8 +8,8 @@ import json
 # replace {email address} with your Contentful email address and {API token} from Contentful admin section
  
 url = 'https://contentful.zendesk.com/api/v2/search.json?query=type:ticket status:solved status:closed created>=2019-01-01 created<2019-03-31'
-headers = {'Authorization':'Basic ZmFqcmkuaGFu_bnlAY29udGVudGZ1bC5jb20vdG9rZW46dDA4VjVSSEVvSHFIejVNZG9GVmVaYUdZd2J1Mnh0M2FsNTduM0ZsbA=='}
- 
+headers = {'Authorization':'Basic Base64-encoded-of{email address}:{API token}'}
+
 # open the file
 fo = open("ticket_id.txt","a+")
  
